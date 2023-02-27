@@ -1,0 +1,4 @@
+from os import path
+full_name = path.basename(r'C:\python3\file.tar.gz ')
+name = path.splitext(full_name)[1]
+print(name)
